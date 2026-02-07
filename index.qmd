@@ -1,0 +1,84 @@
+---
+title: "Hosting an HTML Page on GitHub Pages"
+author: "Sophie"
+format: html
+---
+
+## Purpose
+
+This document explains how to host an HTML file on GitHub Pages using Quarto and GitHub Desktop.
+
+---
+
+## Step 1: Create a Quarto document
+
+1. Open RStudio
+2. Go to File → New File → Quarto Document
+3. Choose HTML as the output format
+4. Save the file as `index.qmd`
+
+---
+
+## Step 2: Render to HTML
+
+1. Open `index.qmd` in RStudio
+2. Click Render
+3. Confirm that a file named `index.html` is created
+
+---
+
+## Step 3: Create a GitHub repository
+
+1. Open GitHub Desktop
+2. Click File → New Repository
+3. Name the repository (for example: `Test_HTML`)
+4. Click Create Repository
+
+---
+
+## Step 4: Add files to the repository
+
+1. Copy `index.html` into the repository folder
+2. (Optional) Also include `index.qmd`
+
+---
+
+## Step 5: Commit and push files
+
+1. Open GitHub Desktop
+2. Write a commit message
+3. Click Commit to main
+4. Click Push origin
+
+---
+
+## Step 6: Enable GitHub Pages
+
+1. Open the repository on GitHub.com
+2. Go to Settings → Pages
+3. Set:
+   - Source: Deploy from a branch
+   - Branch: main
+   - Folder: / (root)
+4. Click Save
+
+---
+
+## Step 7: View the website
+
+The website will be available at:
+
+https://YOUR-USERNAME.github.io/YOUR-REPO/
+
+
+---
+
+## Notes
+
+GitHub Pages requires a file named `index.html` in the root of the repository.
+
+---
+
+## Done
+
+Once the site loads, the URL can be submitted.
